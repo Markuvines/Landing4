@@ -1,0 +1,10 @@
+.mainBlock {
+  position: relative;
+  @import './__content/mainBlock__content.scss';
+  @import './__body/mainBlock__body.scss';
+  @import './__logo/mainBlock__logo.scss';
+  @import './__mainContent/mainBlock__mainContent.scss';
+  @import './__title/mainBlock__title.scss';
+  @import './__text/mainBlock__text.scss';
+  @import './__footer/mainBlock__footer.scss';
+}
