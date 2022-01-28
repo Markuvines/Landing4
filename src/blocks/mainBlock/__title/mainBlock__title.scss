@@ -1,12 +1,10 @@
 &__title {
   font-family: 'Bebas Neue';
   text-align: center;
-  font-size: 60px;
-  line-height: 70px;
+  @include font (60px, 70px);
   letter-spacing: 5.70937px;
   color: #FFFFFF;
   @media(max-width: 768px) {
     font-size: 40px;
-    line-height: 50px;
   }
 }
