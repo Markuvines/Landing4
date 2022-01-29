@@ -1,0 +1,9 @@
+&__text {
+  padding: 15px 0 151px 14px;
+  position: relative;
+  z-index: 10;
+  @include font(24px, 29px);
+  font-weight: bold;
+  letter-spacing: 0.1875px;
+  color: #FFFFFF;
+}
