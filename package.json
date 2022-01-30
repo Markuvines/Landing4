@@ -35,7 +35,12 @@
     "gulp-webp-css": "^1.1.0",
     "gulp-webp-html": "^1.0.2",
     "sass": "^1.45.0",
-    "svgo": "^2.8.0"
+    "svgo": "^2.8.0",
+    "webpack": "^5.67.0",
+    "webpack-stream": "^7.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "slick-carousel": "^1.8.1"
+  }
 }

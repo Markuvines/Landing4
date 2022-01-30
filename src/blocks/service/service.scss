@@ -1,0 +1,6 @@
+.service {
+  padding: 39px 23px;
+  @import './__image/service__image.scss';
+  @import './__title/service__title.scss';
+  @import './__text/service__text.scss';
+}
