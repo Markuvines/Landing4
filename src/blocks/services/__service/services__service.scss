@@ -1,0 +1,8 @@
+&__service {
+  max-width: 295px;
+  @media(max-width: 599px) {
+    &:not(:last-child) {
+      margin: 0 0 10px 0;
+    }
+    }
+}

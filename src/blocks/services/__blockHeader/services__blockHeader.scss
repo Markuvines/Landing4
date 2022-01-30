@@ -1,0 +1,10 @@
+&__blockHeader {
+  min-width: 200px;
+  margin: 0 auto 0 0;
+  @media(max-width: 768px) {
+    margin: 0 100% 0 0;
+  }
+  @media(max-width: 564px) {
+    margin: 0 0 10px 0;
+  }
+}

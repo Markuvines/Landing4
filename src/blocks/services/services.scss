@@ -1,0 +1,9 @@
+.services {
+  margin: 0 0 115px 0;
+  @import './__discription/services__discription.scss';
+  @import './__blockHeader/services__blockHeader.scss';
+  @import './__text/services__text.scss';
+  @import './__button/services__button.scss';
+  @import './__body/services__body.scss';
+  @import './__service/services__service.scss';
+}

@@ -1,0 +1,9 @@
+&__body {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  @media(max-width: 894px) {
+    justify-content: center;
+    }
+}
