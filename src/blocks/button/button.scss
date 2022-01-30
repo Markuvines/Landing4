@@ -1,0 +1,9 @@
+.button {
+  padding: 13px 29px;
+  @include font (13px, 15px);
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  background: #00A4E5;
+  cursor: pointer;
+}
