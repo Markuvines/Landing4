@@ -6,7 +6,7 @@ font-size: 16px;
 }
 ._container {
   margin: 0 auto;
-  max-width: 940px;
+  max-width: 950px;
   padding: 0 5px;
 }
 ._ibg {
@@ -17,8 +17,17 @@ font-size: 16px;
   height: 100%;
   object-fit: cover;
 }
+.wrapper {
+  &__header {
+    margin: 0 0 58px 0;
+  }
+  &__about {
+    margin: 0 0 118px 0;
+  }
+}
 
 @import './blocks/mainBlock/mainBlock.scss';
 @import './blocks/header/header.scss';
 @import './blocks/blockHeader/blockHeader.scss';
 @import './blocks/feature/feature.scss';
+@import './blocks/about/about.scss';

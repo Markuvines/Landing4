@@ -1,0 +1,10 @@
+&__body {
+  display: flex;
+  justify-content: space-between;
+  @media (max-width:1000px) {
+    flex-wrap: wrap;
+  }
+  @media (max-width:874px) {
+    justify-content: center;
+  }
+}

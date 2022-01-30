@@ -1,0 +1,9 @@
+&__feature {
+  flex: 0 0 140px;
+  @media (max-width: 470px) {
+     min-width: 140px;
+     &:not(:last-child) {
+       margin: 0 0 10px 0;
+     }
+  }
+}
