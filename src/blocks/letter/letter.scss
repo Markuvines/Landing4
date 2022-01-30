@@ -1,0 +1,7 @@
+.letter {
+  padding: 30px 0;
+  background: #171819;
+  @import './__form/letter__form.scss';
+  @import './__title/letter__title.scss';
+  @import './__input/letter__input.scss';
+}
