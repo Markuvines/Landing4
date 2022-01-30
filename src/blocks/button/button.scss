@@ -1,9 +1,15 @@
 .button {
-  padding: 13px 29px;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   @include font (13px, 15px);
   font-weight: bold;
   letter-spacing: 0.5px;
   color: #FFFFFF;
   background: #00A4E5;
   cursor: pointer;
+  @import './--services/button--services.scss';
+  @import './--getInTouch/button--getInTouch.scss';
 }
