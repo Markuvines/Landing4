@@ -1,0 +1,9 @@
+&__title {
+  margin: 0 auto 35px;
+  max-width: 350px;
+  @include font (30px, 36px);
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.15px;
+  color: #48555B;
+}
