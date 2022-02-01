@@ -1,0 +1,9 @@
+&__discription {
+  margin: 0 71px 0 0;
+  max-width: 250px;
+  @media(max-width: 650px){
+    margin: 0;
+    max-width: 80%;
+    text-align: center;
+  }
+}

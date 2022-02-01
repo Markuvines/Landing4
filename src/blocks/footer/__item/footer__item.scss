@@ -1,0 +1,8 @@
+&__item {
+  @include font (11px, 25px);
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+  @media(max-width: 650px){
+    font-size: 10px;
+  }
+}

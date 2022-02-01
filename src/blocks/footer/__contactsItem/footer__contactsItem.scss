@@ -1,0 +1,8 @@
+&__contactsItem {
+  @include font (11px, 16px);
+  letter-spacing: 0.946154px;
+  color: #FFFFFF;
+  &:not(:last-child) {
+    margin: 0 0 20px 0;
+  }
+}

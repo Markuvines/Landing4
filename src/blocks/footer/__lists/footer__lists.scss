@@ -1,0 +1,12 @@
+&__lists {
+  margin: 0 58px 0 0;
+  @media(max-width:876px){
+    margin: 30px 58px 0 0;
+    order: 4;
+   }
+  @media(max-width: 650px){
+    width: 60%;
+    margin: 20px 0 0 0;
+    order: 2;
+  }
+}

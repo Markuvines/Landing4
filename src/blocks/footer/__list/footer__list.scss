@@ -1,0 +1,14 @@
+&__list {
+  &:nth-child(1) {
+    margin: 0 34px 0 0;
+    @media(max-width: 650px){
+     margin: 0;
+    }
+  }
+  &:nth-child(2) {
+    margin: 0 38px 0 0;
+    @media(max-width: 650px){
+     margin: 0;
+    }
+  }
+}
