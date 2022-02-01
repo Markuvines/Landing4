@@ -86,8 +86,9 @@ html(lang="en")
         .letter__content._container 
           form.letter__form(action="")
             .letter__title Newsletter Signup
-            input.letter__input(type="text", placeholder="test@youremail.com")
-            button.letter__button.button SIGNUP
+            .letter__formBody
+              input.letter__input(type="text", placeholder="test@youremail.com")
+              button.letter__button.button SIGNUP
       footer.wrapper__footer.footer 
           section.footer__info
             .footer__content._container

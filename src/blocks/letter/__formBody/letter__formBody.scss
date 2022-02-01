@@ -1,0 +1,7 @@
+&__formBody {
+  display: flex;
+  @media (max-width: 425px) {
+    flex-wrap: wrap;
+    width: 80%;
+  }
+}

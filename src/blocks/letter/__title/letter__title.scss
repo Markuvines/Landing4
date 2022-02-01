@@ -4,4 +4,7 @@
   font-weight: bold;
   letter-spacing: 0.846154px;
   color: #FFFFFF;
+  @media (max-width: 626px) {
+    margin: 0 0 15px 0;
+  }
 }
